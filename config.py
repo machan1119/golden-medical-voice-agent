@@ -16,9 +16,6 @@ class Settings:
     LIVEKIT_API_SECRET: str = os.getenv("LIVEKIT_API_SECRET", "")
     LIVEKIT_URL: str = os.getenv("LIVEKIT_URL", "")
 
-    # JotForm API (optional)
-    JOTFORM_API_KEY: str = os.getenv("JOTFORM_API_KEY", "")
-
     # OpenAI
     OPENAI_API_KEY: str = os.getenv("OPENAI_API_KEY", "")
     DEEPGRAM_API_KEY: str = os.getenv("DEEPGRAM_API_KEY", "")
